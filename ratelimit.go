@@ -18,13 +18,13 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-package ratelimit // import "go.uber.org/ratelimit"
+package ratelimit
 
 import (
 	"sync"
 	"time"
 
-	"go.uber.org/ratelimit/internal/clock"
+	"github.com/msaf1980/ratelimit/internal/clock"
 )
 
 // Note: This file is inspired by:
